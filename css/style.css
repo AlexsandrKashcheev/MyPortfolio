@@ -241,7 +241,7 @@ body {
 /*---------------------------------------Блок About--------------------------------------------*/
 
 .about {
-    background-color: #F6F6F6;
+    background-color: #e5e5e5;
     padding: 120px 0px 106px 0px;
 }
 
@@ -316,7 +316,7 @@ body {
 
 
 .portfolio {
-    background-color: #F6F6F6;
+    background-color: #e5e5e5;
 }
 
 .portfolio__wrapper {
@@ -327,8 +327,11 @@ body {
 .portfolio__pic {
     max-width: 936px;
     margin: 0 auto;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
+    padding-top: 80px;
 }
+
+
 .portfolio__pic img {
     width: 100%;
     height: auto;
@@ -338,7 +341,6 @@ body {
     font-weight: 700;
     font-size: 34px;
     line-height: 42px;
-    margin-bottom: 67px;
 }
 
 .portfolio__link {
@@ -457,6 +459,22 @@ body {
 
 /*=================media skills============================*/
 
+@media (max-width: 767px){
+    .skills__item{
+        flex: 0 1 50%;
+        margin-bottom: 35px;
+    }
+    .skills__wrapper{
+        padding: 80px 0px 50px 0px;
+    }
+    .skills__title{
+        margin-bottom: 30px;
+    }
+    .skills__sub-title{
+        margin-bottom: 40px;
+    }
+}
+
 @media (max-width: 479px){
     .skills__wrapper{
         padding: 80px 0px 50px 0px;
@@ -468,7 +486,7 @@ body {
         margin-bottom: 40px;
     }
     .skills__item{
-        width: 100%;
+        flex: 0 1 100%;
         margin-bottom: 25px;
     }
     .skills__item:last-child{
