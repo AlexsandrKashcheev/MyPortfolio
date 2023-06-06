@@ -365,10 +365,15 @@ body {
     padding: 112px 0px 96px 0px;
 }
 
+.portfolio__item{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
 .portfolio__pic {
     max-width: 936px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     padding-top: 80px;
 }
 
@@ -395,6 +400,41 @@ body {
 
 .portfolio__link:hover {
     color: #63636394;
+}
+
+.footer{
+    background-color: #000;
+    color: #e5e5e5;
+    padding: 30px 0px;
+}
+
+.footer__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+}
+
+.footer__title{
+    max-width: 130px;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.social-network{
+    display: flex;
+    gap: 10px;
+    order: 1;
+}
+
+.telegram_img{
+    width: 23px;
+    height: 23px;
+}
+.whatsApp_img{
+    width: 23px;
+    height: 23px;
 }
 
 /*=================media header==========================*/
